@@ -1,0 +1,216 @@
+.section3 {
+    margin: 120px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.sec3-container {
+    width: 100%;
+    background-color: var(--lightgreen-1);
+    padding: 0px 30px 0px 20px;
+    margin: 100px auto 50px auto;
+}
+
+
+.special-container {
+    margin: 20px 20px 40px 20px;
+    text-align: center;
+}
+
+.special-container h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.special-container button {
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: var(--green-1);
+    color: var(--white-1);
+}
+
+.food1 {
+    margin-top: -40%;
+    margin-left: 20PX;
+    box-shadow: 10px 15px 20px silver;
+}
+
+.potato {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.fries {
+    margin-top: 10px;
+}
+
+.rate {
+    margin: 6px auto;
+    color: var(--green-1);
+}
+
+.fries-des {
+    font-size: 16px;
+}
+
+.salad-head {
+    margin: 30px auto;
+}
+
+
+
+@media screen and (min-width :576px) {
+    .section3 {
+        flex-flow: row wrap;
+        width: 100%;
+    }
+
+    .sec3-container {
+        width: 300px;
+        padding: 0px 30px;
+    }
+
+    .food1 {
+        margin-top: -40%;
+        margin-left: 40PX;
+        box-shadow: 10px 15px 20px silver;
+        width: 150px;
+        height: 150px;
+    }
+
+    .potato, .salad-head {
+        font-size: 20px;
+    }
+
+    .special-container {
+        padding: 0px 60px 0px 60px;
+    }
+
+    .fries-des {
+        padding: 0px 50px 0px 0px;
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width :768px) {
+    .section3 {
+        flex-flow: row-reverse;
+        width: 100%;
+    }
+
+    .special-container {
+        width: 200px;
+        padding: 50px 0px 0px 10px;
+        margin: 0px;
+        text-align: left;
+    }
+
+    .special-container h1 {
+        font-size: 25px;
+    }
+
+    .sec3-container {
+        margin: 0px 10px;
+    }
+
+
+}
+
+@media screen and (min-width :992px) {
+    .section3 {
+        width: 1000px;
+        padding: 30px 50px;
+        padding: 30px 90px 30px 0px;
+    }
+
+}
+
+@media screen and (min-width :1200px) {
+    .section3 {
+        width: 1000px;
+        padding: 30px 50px;
+        padding: 80px 90px 30px 0px;
+    }
+
+    .section3 {
+        margin: 160px auto auto auto;
+    }
+
+    .special-container h1 {
+        font-size: 2rem;
+    }
+
+    .food1, .potato, .salad-head {
+        font-size: 25px;
+    }
+
+    .fries-des {
+        padding: 0px 50px 0px 0px;
+        font-size: 20px;
+    }
+
+    .special-container button {
+        font-size: 20px;
+    }
+
+    .rate {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width :1920px) {
+
+    .section3 {
+        width: 100%;
+    justify-content: center;    
+    }
+
+    .sec3-container {
+        width: 400px;
+        height: 900px;
+        border: 1px solid red;
+
+    }
+
+    .food1, .potato, .salad-head {
+        font-size: 35px;
+    }
+
+    .special-container {
+        width: 400;
+    }
+
+    .special-container h1 {
+        font-size: 3rem;
+
+    }
+
+    .special-container p {
+        font-size: 1.8rem;
+
+    }
+
+    .special-container button {
+        padding: 20px 30px;
+        font-size: 30px;
+    }
+
+    .rate {
+        font-size: 40px;
+    }
+
+    .fries {
+        font-size: 30px;
+    }
+
+    .fries-des {
+        font-size: 30px;
+    }
+    .food1{
+        width: 250px;
+        height: 300px;
+    }
+}

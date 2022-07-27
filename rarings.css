@@ -1,0 +1,153 @@
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+    padding-left: 10px;
+    background-color: var(--lightgreen-1);
+    align-items: center;
+    border-radius: 30px;
+}
+
+.dp {
+    margin: 20px 0px;
+    border-radius: 30px;
+}
+
+.comments {
+    text-align: left;
+}
+
+.comments h1 {
+    margin: 10px auto;
+}
+
+.rating-header {
+    margin: 120px 0px 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+@media screen and (min-width :576px) {
+    .rating-container {
+        width: 500px;
+    }
+
+    .comments {
+        text-align: center;
+    }
+
+
+    .dp {
+        margin: 20px 0px;
+        border-radius: 30px;
+        width: 300px;
+    }
+
+    .rating-header {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width :768px) {
+    .rating-container {
+        width: 350px;
+    }
+
+    .ratings {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0px 0px;
+    }
+
+    .dp {
+        width: 100px;
+        margin: 20px 0px;
+        height: 200px;
+    }
+
+    .rating-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .comments {
+        text-align: left;
+        margin: 10px 10px;
+    }
+}
+
+@media screen and (min-width :992px) {
+    .ratings {
+        padding: 0px 0px;
+    }
+
+    .rating-container {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width :1200px) {
+    .ratings {
+        padding: 0px 20px;
+    }
+
+    .rating-container {
+        width: 550px;
+    }
+
+    .comments {
+        text-align: left;
+        margin: 30px 10px 0px;
+
+    }
+
+    .comments p {
+        padding-right: 30px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width :1920px) {
+    .ratings {
+        padding: 0px 250px;
+        align-items: center;
+        border-radius: 0px;
+    }
+
+    .rating-container {
+        width: 650px;
+    }
+
+    .comments {
+        text-align: left;
+        margin: 40px 0px;
+        width: 100%;
+    }
+
+    .comments h1 {
+        font-size: 25px;
+    }
+
+    .dp {
+        margin: 40px 20PX ;
+         height: 300px;
+        width: 200px;
+    }
+
+    .comments p {
+        padding-right: 30px;
+        font-size: 25px;
+    }
+
+    .rate-star {
+        margin: 10px 0px 0px;
+    }
+    .rating-header {
+        font-size: 60px; 
+    }
+
+}

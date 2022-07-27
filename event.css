@@ -1,0 +1,187 @@
+.eventbooking {
+    display: grid;
+    grid-template-columns: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.event-img {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.event-container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightgreen-1);
+    align-items: center;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.event-figcaption {
+    text-align: center;
+}
+
+.event-figcaption p {
+    padding: 10px 14px;
+    font-size: 18px;
+}
+
+.event-figcaption h1 {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.event-order {
+    width: 300px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.event-btn {
+    background-color: var(--green-1);
+    color: var(--white-1);
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    border: 2px solid green;
+}
+
+@media screen and (min-width :576px) {
+    .eventbooking {
+        margin-top: 130px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .event-container {
+        width: 550px;
+    }
+
+    .event-order {
+        margin: 0px 0px;
+        width: 500px;
+        text-align: center;
+        padding: 0px 30px;
+        margin: 0 auto;
+
+    }
+
+    .event-figcaption p {
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (min-width :992px) {
+
+    .eventbooking {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .event-container {
+        display: flex;
+        flex-direction: row;
+        width: 450px;
+    }
+
+    .event-figcaption {
+        text-align: left;
+        margin: 0px 0px;
+        height: 200px;
+        padding: 0;
+    }
+
+    .event-figcaption h1 {
+        padding: 0px;
+        margin: 20px 0px 5px 0px;
+        font-size: 20px;
+    }
+
+    .event-figcaption p {
+        padding: 0px;
+        margin: 0px 0px;
+    }
+
+    .event-img {
+        margin: 0px 10px;
+        padding: 30px 0px;
+        border-radius: 10px;
+    }
+
+    .eventbooking-item {
+        width: 650px;
+    }
+
+    .event-order {
+        width: 450px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin: 10px 0px;
+        text-align: left;
+
+
+    }
+
+}
+
+@media screen and (min-width :1200px) {
+
+    .eventbooking {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width :1920px) {
+    .event-container {
+        display: flex;
+        flex-direction: row;
+        width: 550px;
+    }
+
+    .eventbooking {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .event-figcaption h1 {
+        margin: 0px 0px 5px 0px;
+        font-size: 40px;
+    }
+
+    .event-figcaption p {
+        font-size: 25px;
+    }
+
+    .event-img {
+        width: 500px;
+        height: 250px;
+    }
+
+    .event-order h1 {
+        font-size: 40px;
+
+    }
+
+    .event-order p {
+        font-size: 30px;
+
+    }
+
+    .event-btn {
+        font-size: 25px;
+
+    }
+
+}

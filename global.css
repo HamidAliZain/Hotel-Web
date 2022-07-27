@@ -1,0 +1,14 @@
+    html {
+        overflow-x:hidden ;
+    }
+    :root{
+        --green-1:#266436;
+        --green-2:#a2de96;
+        --lightgreen-1:#d6e5d8;
+        --lightgreen-2:#f5fcf4;
+        --black-1:#3b413a;
+        --black-2:#3f3c3c;
+        --black-3:#5b6359;
+        --white-1:#e8e8e8;
+    }
+        

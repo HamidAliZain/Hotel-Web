@@ -1,0 +1,37 @@
+.iframe-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0px;
+
+}
+
+@media screen and (min-width :576px) {
+    .iframe-section {
+        margin: 40px 0px;
+    }
+
+    iframe {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width :992px) {
+    iframe {
+        width: 800px;
+    }
+}
+
+@media screen and (min-width :1200px) {
+    .iframe-section {
+        margin: 180px 0px 50px;
+    }
+
+}
+@media screen and (min-width :1920px) {
+     .iframe {
+      width: 1000px;
+      height: 500px;
+    }
+
+}

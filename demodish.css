@@ -1,0 +1,154 @@
+.demo-dish {
+    margin-top: 30px;
+    align-items: center;
+    display: grid;
+    background-color: var(--lightgreen-1);
+    grid-template-columns: auto;
+    width: 100%;
+    margin: 50px auto;
+}
+
+.discount-illustration {
+    display: none;
+}
+
+.demo-dish article {
+    justify-content: center;
+}
+
+.demo-figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.demo-dish-des {
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0px 0px 40px 60px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.demo-dis-rate {
+    color: var(--green-1);
+    margin: 20px auto 0px;
+}
+
+.demo-dish-head1 {
+    margin: 0px auto 2px;
+}
+
+.demo-dish-head2 {
+    margin: 0px auto 10px;
+}
+
+.demo-price {
+    margin: 0px auto;
+    font-size: 20px;
+}
+
+.demostar {
+    margin: 10px auto;
+}
+
+.demo-button {
+    padding: 0.5rem 1.5rem;
+    background-color: var(--green-1);
+    color: var(--white-1);
+    border: 2px double black;
+}
+
+.green {
+    color: var(--green-1);
+    margin-left: 2px;
+}
+
+.demo-img {
+    display: inline-block;
+}
+
+@media screen and (min-width :576px) {
+    .demo-dish {
+        width: 100%;
+        margin: 100px auto;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (min-width :992px) {
+    .demo-dish {
+        justify-content: space-between;
+        margin: 150px auto 50px;
+        flex-direction: row;
+        display: flex;
+        align-items: left;
+        padding: 0px;
+        width: 1000px;
+
+    }
+
+    .demo-img {
+        width: 150px;
+        padding: 0;
+    }
+
+    .demo-dish article {
+
+        margin: 0px 0px;
+        padding: 0px;
+    }
+
+    .demo-dish-des {
+        padding-left: 5px;
+        margin: 0px 50px;
+    }
+
+    #food3hieght {
+        height: 200px;
+    }
+
+}
+
+@media screen and (min-width :1200px) {
+    .demo-dish {
+        width: 1100px;
+        margin: 150px auto 50px;
+    }
+
+    .discount-illustration {
+        display: initial;
+        margin-bottom: -120;
+    }
+}
+
+@media screen and (min-width :1920px) {
+    .demo-dish {
+        margin: 150px auto 50px;
+    }
+
+    .discount-illustration {
+        display: initial;
+        margin-bottom: -120;
+    }
+
+    .demo-dish-head1, .demo-dish-head2 {
+        font-size: 30px;
+    }
+
+    .demo-price {
+        font-size: 25px;
+    }
+
+    .demostar {
+        width: 150px;
+    }
+
+    .demo-button {
+        font-size: 20px;
+
+    }
+
+
+}

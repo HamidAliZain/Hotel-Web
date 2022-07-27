@@ -1,0 +1,160 @@
+.why-choose {
+    margin-top: 140px;
+}
+
+.choose-des {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.choose-des p {
+    font-size: 20px;
+}
+
+.choose-icons {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    justify-content: center;
+}
+
+.choose-images img {
+    width: 60px;
+}
+
+.choose-images {
+    background-color: var(--lightgreen-1);
+    padding: 20px 10px;
+    margin: 10px 10px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.choose-images img {
+    width: 100px;
+
+}
+
+@media screen and (min-width :576px) {
+    .why-choose {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+        justify-content: space-between;
+        margin: 0 auto;
+
+    }
+
+    .choose-des {
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .choose-des h1 {
+        padding: 0px 10px;
+    }
+
+    .choose-des p {
+        padding: 0px 15px;
+        font-size: 17px;
+        opacity: 0.7;
+    }
+
+    .choose-images img {
+        width: 80px;
+    }
+
+    .choose-images {
+        width: 130px;
+    }
+
+}
+
+@media screen and (min-width :992px) {
+
+    .choose-images {
+        width: 130px;
+        font-size: 16px;
+    }
+
+    .choose-images img {
+        width: 80px;
+
+    }
+
+    .choose-icons {
+        width: 90%;
+    }
+
+    .choose-des h1 {
+        padding: 0px 10px;
+    }
+
+    .choose-des p {
+        padding: 0px px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .choose-images {
+        background-color: var(--lightgreen-1);
+        padding: 20px 10px;
+        margin: 5px 10px;
+        width: 150px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width :1200px) {
+    .choose-des p {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (min-width :1920px) {
+    .choose-des p {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+
+    .choose-des h1 {
+        font-size: 35px;
+    }
+
+    .choose-des p {
+        font-size: 25px;
+    }
+
+    .why-choose {
+        width: 900px;
+    }
+
+    .choose-images {
+        width: 250px;
+
+    }
+
+    .choose-images img {
+        width: 100px;
+    }
+
+    .choose-images p {
+        font-size: 30px;
+    }
+
+
+}
