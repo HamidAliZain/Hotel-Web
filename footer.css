@@ -2,13 +2,14 @@ footer {
     margin:  0px 0px 000px;
     display: flex;
     flex-direction: column;
-    padding: 50px 50px;
+    padding: 50px 0px;
     align-items: center;background-color: var(--lightgreen-1);
 }
 
 .footer-logo {
     width: 130px;
-}
+    display: block;
+ }
 
 
 .footer-container {
@@ -22,6 +23,7 @@ footer {
 
 .footer-container p {
     text-align: center;
+
 }
 
 .footer-items {
