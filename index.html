@@ -6,6 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="global.css" />
   <link rel="stylesheet" href="service.css" />
   <link rel="stylesheet" href="nav.css" />
@@ -17,345 +23,355 @@
   <link rel="stylesheet" href="foodselection.css" />
   <link rel="stylesheet" href="rarings.css" />
   <link rel="stylesheet" href="newsletter.css" />
-  <link rel="stylesheet" href="footer.css" /> 
+  <link rel="stylesheet" href="footer.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="./nav.js">
+  </script>
 
- 
 
-  <title>Document</title>
-  <script src="./aos.js"></script>
+  <title>Shaifs Cusline</title>
 </head>
+
 <body>
-  <!-- <header>
-      <img src="./pic/logo.svg" alt="logo" class="logo" />
-      <nav>
-        <a href="">Home</a>
-        <a href="">Menu</a>
-        <a href="">About</a>
-        <a href="">Contact</a>
-        <button>Book Table</button>
-      </nav>
-    </header> -->
+  <header>
 
-  <main>
-    <section class="section1" data-aos="fade-up">
-      <div class="sec-container"  >
-        <h1 >
-          The flavour Of <br />
-          tradition
-        </h1>
-        <p>
-          we are multi-cusline resturant offering a wide variety of food
-          experince a wide variety of food in both casual and fine dining
-          envoitment
-        </p>
-        <div class="section1-bt5n">
-          <button class="munu">Explore Menu</button>
-          <button class="bokTable">Book Tabel</button>
-        </div>
-      </div>
-      <img src="./pic/heroImg.png" alt="hero" class="display-img" />
-    </section>
-    <!-- -->
-    <section class="section2" data-aos="fade-right">
-      <div class="service">
-        <figure  data-aos="fade-right"  >
-          <img src="./pic/wall-clock-icon.svg" alt="wallclock"  />
-          <figcaption   >10 AM - 7PM</figcaption>
-          <p>Opening Hour</p>
-        </figure>
-
-        <figure   data-aos="fade-right">
-          <img  src="./pic/address-icon.svg" alt="wallclock"  />
-          <figcaption>GEC,Chattagang</figcaption>
-          <p>Address</p>
-        </figure>
-        <figure   data-aos="fade-right">
-          <img  src="./pic/phone-icon.svg" alt="wallclock"  />
-          <figcaption>+3303040631</figcaption>
-          <p>Call Now</p>
-        </figure>
-      </div>
-    </section>
-    <!--  -->
-    <section class="section3" data-aos="fade-left">
-      <div class="special-container" data-aos="fade-left">
-        <h1>Our Specials</h1>
-        <p>
-          All our food is prepeared daily at our resturant to ensure the
-          highest quietly freshed meals are deliver to our coustomer
-        </p>
-        <button>Book Table</button>
+    <div id="mySidenav" class="sidenav">
+      <div class="nav-logo">
+        <img src="./pic/logo.svg" alt="sa" />
       </div>
 
-      <div class="sec3-container" data-aos="fade-left">
-        <img src="./pic/food-1.png" alt="food" height="200px" width="200px" class="food1" />
-        <h1 class="salad-head">Vegan Salad Bowl</h1>
-        <h4 class="rate">$18</h4>
-        <img src="./pic/star.png" alt="dj" />
-        <p class="fries-des">
-          Vegan Salad Vowl are immersely satisffying with any combination of
-          whole garin pulse noodle rowa or cooked friut and veggies all looped
-          off with deliciuos sauce or dressing each bite is an explosion of
-          flavours and features
-        </p>
+      <div class="nav-items">
+        <a class="closebtn" onclick="closeNav()"><i class="fa-solid fa-xmark"></i></a>
+        <a href="#about">About</a>
+        <a href="#service">Services</a>
+        <a href="#booking">Booking</a>
+        <a href="#dishes">Dishes</a>
       </div>
-      <div class="sec3-container" data-aos="fade-left">
-        <img src="./pic/food-3.png" alt="" height="200px" width="200px" class="food1" />
-        <h1 class="potato">Sweet Potato</h1>
-        <h1 class="fries">Fries Bowl</h1>
-        <h4 class="rate">$18</h4>
-        <img src="./pic/star.png" alt="dj" />
-        <p class="fries-des">
-          These Sweet Potato fries bowl are so glarious messy platates of
-          goodness crispy sweet potato fries loded with lots of fresh summer
-          vegitable and limes racnh by addind a seasioning bland with
-          chepotile powder garlic and onionthes spicy sweets potato fries are
-          full off flavour
-        </p>
-      </div>
-    </section>
-    <!--  -->
-    <h1 class="top-head-dish" data-aos="fade-right">Top Dishes</h1>
-    <section class="section4" data-aos="fade-right">
-      <div class="sec4-container" data-aos="fade-right">
-        <img src="./pic//food-1.png" alt="Salad" width="150px" class="dishes-img1" />
-        <div class="des-container">
-          <h2 class="dishes-head1">Vegan Salad</h2>
-          <h2 class="dishes-head2">bowl</h2>
-          <h3 class="price">$12</h3>
-          <img src="./pic/star.png" class="top-dish-star" alt="stay"  />
-        </div>
-      </div>
-
-      <div class="sec4-container" data-aos="fade-right"> 
-        <img src="./pic//food-2.png" alt="Salad" width="150px" class="dishes-img1" />
-        <div class="des-container">
-          <h2 class="dishes-head1">Vegan Pesto</h2>
-          <h2 class="dishes-head2">Zoodies</h2>
-          <h3 class="price">$12</h3>
-          <img src="./pic/star.png" class="top-dish-star" alt="stay" />
-        </div>
-      </div>
-
-      <div class="sec4-container" data-aos="fade-right">
-        <img src="./pic//food-7.png" alt="Hot green" width="150px" class="dishes-img1" />
-        <div class="des-container" id="hotgreenbowl">
-          <h2 class="dishes-head1">Hot Green bowl</h2>
-          <h3 class="price">$12</h3>
-          <img src="./pic/star.png" class="top-dish-star" alt="stay" />
-        </div>
-      </div>
-    </section>
-    <!--  -->
-    <section class="demo-dish" data-aos="fade-left">
-      <article>
-        <figure class="demo-figure">
-          <img class="demo-img" src="./pic/food-5.png" alt="demofood1" width="200px" />
-        </figure>
-      </article>
-      <article>
-        <figure class="demo-figure">
-          <img class="demo-img" src="./pic/food-4.png" alt="demofood1" width="200px" />
-        </figure>
-      </article>
-      <article>
-        <figure class="demo-figure">
-          <img class="demo-img" src="./pic/food-3.png" alt="demofood1" width="200px" id="food3hieght" />
-        </figure>
-      </article>
-      <figcaption class="demo-dish-des">
-        <h4 class="demo-dis-rate">20% OFF</h4>
-        <h1 class="demo-dish-head1">Demo Dish For</h1>
-        <h1 class="demo-dish-head2">Discount</h1>
-        <h4 class="demo-price">
-          <del>$99 </del> <span class="green"> $65</span>
-        </h4>
-        <img class="demostar" src="./pic/star.png" alt="star" />
-        <br />
-        <button class="demo-button">Book Table</button>
-      </figcaption>
-      <img src="./pic/discount-illustration.png" alt="discount-illustration" width="100px"
-        class="discount-illustration" />
-    </section>
-    <!--  -->
-    <section class="iframe-section" data-aos="zoom-in-down">
-      <iframe class="iframe" width="300" height="315" src="https://www.youtube.com/embed/xPPLbEFbCAo"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
-    </section>
-    <!--  -->
-
-    <sectino class="eventbooking" data-aos="fade-up">
-      <div class="eventbooking-item">
-
-        <div class="event-container" data-aos="fade-right">
-          <img src="./pic/event-corporate.png" alt="event" width="200px" height="200px" class="event-img" />
-
-          <figcaption class="event-figcaption">
-            <h1>Corporate Events</h1>
-            <p>
-              Sheilf,s cusline is the perfect venue for your corporate events we
-              specelize to private partie
-            </p>
-          </figcaption>
-        </div>
-        <div class="event-container" data-aos="fade-right">
-          <img class="event-img" src="./pic/event-weedings.png" alt="event" width="200px" height="200px" />
-          <figcaption class="event-figcaption">
-            <h1>Weddings</h1>
-            <p>
-              Sheilf,s cusline offer an intimatliy unique wedding experince set
-              in a spectecular setting that is sopished and comfortable
-            </p>
-          </figcaption>
-        </div>
-      </div>
-      </div>
-
-      <div class="event-order" data-aos="fade-right">
-        <h1>Book For Event</h1>
-        <p>
-          Book your private event or corporate function at shailf,s cusline in
-          experince a truly unique experience
-        </p>
-        <button class="event-btn">Contact Now</button>
-      </div>
-    </sectino>
-
-    <!--  -->
-    <section class="why-choose" data-aos="fade-down">
-      <div class="choose-des" >
-        <h1> Why Choose Our food    </h1>
-        <p>
-          Quality of servioce food Ambanxe and Value of Money are the priamry elements for choosing shelfs cusline in
-          one
-          of the most enqusite fine-dining resturant in Karachi cities with a captivating view of GDC-Found.
-          perfevtambence and scrptuneous food.
-        </p>
-      </div>
-
-      <div class="choose-icons">
-        <div class="choose-images">
-          <img src="./pic/whyUs-icon1.svg" alt="food22" />
-          <p>Quality Food</p>
-        </div>
-
-        <div class="choose-images">
-          <img src="./pic/whyUs-icon2.svg" alt="food22" />
-          <p>CLassical Taste</p>
-        </div>
-
-        <div class="choose-images">
-          <img src="./pic/whyUs-icon3.svg" alt="food22" />
-          <p>Skilled shef</p>
-        </div>
-
-        <div class="choose-images">
-          <img src="./pic/whyUs-icon4.svg" alt="food22">
-          <p>Best Service</p>
-        </div>
-      </div>
-    </section>
-    <!--  -->
-    <h1 class="rating-header" data-aos="fade-up">What our Customers Say</h1>
-    <section class="ratings" >
-      <div class="rating-container">
-        <img src="./pic/harry'.jpg" alt="coustomer" width="200px" class="dp" />
-        <div class="comments">
-          <h1>Kaleem</h1>
-          <img src="./pic/star.png" alt="ratings " />
-          <p>Visited sheilf cusline with freinds last sunday really lovely meat and verywarm welcome we should
-            recommand
-            the lovely resturant and will try to go again
-          </p>
-        </div>
-      </div>
-      <div class="rating-container">
-        <img src="./pic/testimonial_img1.png" alt="coustomer" width="200px" class="dp" />
-        <div class="comments">
-          <h1>Humaira</h1>
-          <img src="./pic/star.png" alt="ratings " />
-          <p>From start to finish lovely experince Hostrest dicount wAit staff jhon was wonderful
-            and attractive food delicious and deserts is out of this world
-          </p>
-        </div>
-      </div>
-      <div class="rating-container">
-        <img src="./pic/testimonial_img1.png" alt="coustomer" width="200px" class="dp" />
-        <div class="comments">
-          <h1>Kashaf</h1>
-          <img src="./pic/star.png" alt="ratings " />
-          <p>A warmful and friendly welcome with fantastic customer service. Always great tasty Food served piping hot
-            just the way we love it. Would definnitley recomanded We have been repeatedly and its consistently exceded
-            our expectation
-          </p>
-        </div>
-      </div>
-      <div class="rating-container">
-        <img src="./pic/barry.jpg" alt="coustomer" width="200px" class="dp" />
-        <div class="comments">
-          <h1>Rohan</h1>
-          <img src="./pic/star.png" alt="ratings" class="rate-star" />
+      <i onclick="openNav()" class="fa-solid fa-bars bar-icon"></i>
+      
+    </div>
+    <main>
+      <section id="about" class="section1" data-aos="fade-up">
+        <div class="sec-container">
+          <h1>
+            The flavour Of <br />
+            tradition
+          </h1>
           <p>
-            I would just like to say thank you for the excellent service we are recieved in yur resturant
-            last night Although the place was very busy we still had an excellent time and really appriciated thr live
-            entertainment too
+            we are multi-cusline resturant offering a wide variety of food
+            experince a wide variety of food in both casual and fine dining
+            envoitment
+          </p>
+          <div class="section1-bt5n">
+            <button class="munu">Explore Menu</button>
+            <button class="bokTable">Book Tabel</button>
+          </div>
+        </div>
+        <img src="./pic/heroImg.png" alt="hero" class="display-img" />
+      </section>
+      <!-- -->
+      <section class="section2" data-aos="fade-up" id="service">
+        <div class="service">
+          <figure data-aos="fade-up">
+            <img src="./pic/wall-clock-icon.svg" alt="wallclock" />
+            <figcaption>10 AM - 7PM</figcaption>
+            <p>Opening Hour</p>
+          </figure>
+
+          <figure data-aos="fade-up">
+            <img src="./pic/address-icon.svg" alt="wallclock" />
+            <figcaption>GEC,Chattagang</figcaption>
+            <p>Address</p>
+          </figure>
+          <figure data-aos="fade-up">
+            <img src="./pic/phone-icon.svg" alt="wallclock" />
+            <figcaption>+3303040631</figcaption>
+            <p>Call Now</p>
+          </figure>
+        </div>
+      </section>
+      <!--  -->
+      <section class="section3" data-aos="fade-up">
+        <div class="special-container" data-aos="fade-up">
+          <h1>Our Specials</h1>
+          <p>
+            All our food is prepeared daily at our resturant to ensure the
+            highest quietly freshed meals are deliver to our coustomer
+          </p>
+          <button>Book Table</button>
+        </div>
+
+        <div class="sec3-container" data-aos="fade-up">
+          <img src="./pic/food-1.png" alt="food" height="200px" width="200px" class="food1" />
+          <h1 class="salad-head">Vegan Salad Bowl</h1>
+          <h4 class="rate">$18</h4>
+          <img src="./pic/star.png" alt="dj" />
+          <p class="fries-des">
+            Vegan Salad Vowl are immersely satisffying with any combination of
+            whole garin pulse noodle rowa or cooked friut and veggies all looped
+            off with deliciuos sauce or dressing each bite is an explosion of
+            flavours and features
           </p>
         </div>
+        <div class="sec3-container" data-aos="fade-up">
+          <img src="./pic/food-3.png" alt="" height="200px" width="200px" class="food1" />
+          <h1 class="potato">Sweet Potato</h1>
+          <h1 class="fries">Fries Bowl</h1>
+          <h4 class="rate">$18</h4>
+          <img src="./pic/star.png" alt="dj" />
+          <p class="fries-des">
+            These Sweet Potato fries bowl are so glarious messy platates of
+            goodness crispy sweet potato fries loded with lots of fresh summer
+            vegitable and limes racnh by addind a seasioning bland with
+            chepotile powder garlic and onionthes spicy sweets potato fries are
+            full off flavour
+          </p>
+        </div>
+      </section>
+      <!--  -->
+      <h1 class="top-head-dish" data-aos="fade-up" id="dishes">Top Dishes</h1>
+      <section class="section4" data-aos="fade-up">
+        <div class="sec4-container" data-aos="fade-up">
+          <img src="./pic//food-1.png" alt="Salad" width="150px" class="dishes-img1" />
+          <div class="des-container">
+            <h2 class="dishes-head1">Vegan Salad</h2>
+            <h2 class="dishes-head2">bowl</h2>
+            <h3 class="price">$12</h3>
+            <img src="./pic/star.png" class="top-dish-star" alt="stay" />
+          </div>
+        </div>
+
+        <div class="sec4-container" data-aos="fade-up">
+          <img src="./pic//food-2.png" alt="Salad" width="150px" class="dishes-img1" />
+          <div class="des-container">
+            <h2 class="dishes-head1">Vegan Pesto</h2>
+            <h2 class="dishes-head2">Zoodies</h2>
+            <h3 class="price">$12</h3>
+            <img src="./pic/star.png" class="top-dish-star" alt="stay" />
+          </div>
+        </div>
+
+        <div class="sec4-container" data-aos="fade-up">
+          <img src="./pic//food-7.png" alt="Hot green" width="150px" class="dishes-img1" />
+          <div class="des-container" id="hotgreenbowl">
+            <h2 class="dishes-head1">Hot Green bowl</h2>
+            <h3 class="price">$12</h3>
+            <img src="./pic/star.png" class="top-dish-star" alt="stay" />
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="demo-dish" data-aos="fade-up">
+        <article>
+          <figure class="demo-figure">
+            <img class="demo-img" src="./pic/food-5.png" alt="demofood1" width="200px" />
+          </figure>
+        </article>
+        <article>
+          <figure class="demo-figure">
+            <img class="demo-img" src="./pic/food-4.png" alt="demofood1" width="200px" />
+          </figure>
+        </article>
+        <article>
+          <figure class="demo-figure">
+            <img class="demo-img" src="./pic/food-3.png" alt="demofood1" width="200px" id="food3hieght" />
+          </figure>
+        </article>
+        <figcaption class="demo-dish-des">
+          <h4 class="demo-dis-rate">20% OFF</h4>
+          <h1 class="demo-dish-head1">Demo Dish For</h1>
+          <h1 class="demo-dish-head2">Discount</h1>
+          <h4 class="demo-price">
+            <del>$99 </del> <span class="green"> $65</span>
+          </h4>
+          <img class="demostar" src="./pic/star.png" alt="star" />
+          <br />
+          <button class="demo-button">Book Table</button>
+        </figcaption>
+        <img src="./pic/discount-illustration.png" alt="discount-illustration" width="100px"
+          class="discount-illustration" />
+      </section>
+      <!--  -->
+      <section class="iframe-section" data-aos="zoom-in-down">
+        <iframe class="iframe" width="300" height="315" src="https://www.youtube.com/embed/xPPLbEFbCAo"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </section>
+      <!--  -->
+
+      <sectino class="eventbooking" data-aos="fade-up">
+        <div class="eventbooking-item">
+
+          <div class="event-container" data-aos="fade-up">
+            <img src="./pic/event-corporate.png" alt="event" width="200px" height="200px" class="event-img" />
+
+            <figcaption class="event-figcaption">
+              <h1>Corporate Events</h1>
+              <p>
+                Sheilf,s cusline is the perfect venue for your corporate events we
+                specelize to private partie
+              </p>
+            </figcaption>
+          </div>
+          <div class="event-container" data-aos="fade-up">
+            <img class="event-img" src="./pic/event-weedings.png" alt="event" width="200px" height="200px" />
+            <figcaption class="event-figcaption">
+              <h1>Weddings</h1>
+              <p>
+                Sheilf,s cusline offer an intimatliy unique wedding experince set
+                in a spectecular setting that is sopished and comfortable
+              </p>
+            </figcaption>
+          </div>
+        </div>
+        </div>
+
+        <div class="event-order" data-aos="fade-up"  id="booking">
+          <h1>Book For Event</h1>
+          <p>
+            Book your private event or corporate function at shailf,s cusline in
+            experince a truly unique experience
+          </p>
+          <button class="event-btn">Contact Now</button>
+        </div>
+      </sectino>
+
+      <!--  -->
+      <section class="why-choose" data-aos="fade-down">
+        <div class="choose-des">
+          <h1> Why Choose Our food </h1>
+          <p>
+            Quality of servioce food Ambanxe and Value of Money are the priamry elements for choosing shelfs cusline in
+            one
+            of the most enqusite fine-dining resturant in Karachi cities with a captivating view of GDC-Found.
+            perfevtambence and scrptuneous food.
+          </p>
+        </div>
+
+        <div class="choose-icons">
+          <div class="choose-images">
+            <img src="./pic/whyUs-icon1.svg" alt="food22" />
+            <p>Quality Food</p>
+          </div>
+
+          <div class="choose-images">
+            <img src="./pic/whyUs-icon2.svg" alt="food22" />
+            <p>CLassical Taste</p>
+          </div>
+
+          <div class="choose-images">
+            <img src="./pic/whyUs-icon3.svg" alt="food22" />
+            <p>Skilled shef</p>
+          </div>
+
+          <div class="choose-images">
+            <img src="./pic/whyUs-icon4.svg" alt="food22">
+            <p>Best Service</p>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <h1 class="rating-header" data-aos="fade-up">What our Customers Say</h1>
+      <section class="ratings">
+        <div class="rating-container">
+          <img src="./pic/harry'.jpg" alt="coustomer" width="200px" class="dp" />
+          <div class="comments">
+            <h1>Kaleem</h1>
+            <img src="./pic/star.png" alt="ratings " />
+            <p>Visited sheilf cusline with freinds last sunday really lovely meat and verywarm welcome we should
+              recommand
+              the lovely resturant and will try to go again
+            </p>
+          </div>
+        </div>
+        <div class="rating-container">
+          <img src="./pic/testimonial_img1.png" alt="coustomer" width="200px" class="dp" />
+          <div class="comments">
+            <h1>Humaira</h1>
+            <img src="./pic/star.png" alt="ratings " />
+            <p>From start to finish lovely experince Hostrest dicount wAit staff jhon was wonderful
+              and attractive food delicious and deserts is out of this world
+            </p>
+          </div>
+        </div>
+        <div class="rating-container">
+          <img src="./pic/testimonial_img1.png" alt="coustomer" width="200px" class="dp" />
+          <div class="comments">
+            <h1>Kashaf</h1>
+            <img src="./pic/star.png" alt="ratings " />
+            <p>A warmful and friendly welcome with fantastic customer service. Always great tasty Food served piping hot
+              just the way we love it. Would definnitley recomanded We have been repeatedly and its consistently exceded
+              our expectation
+            </p>
+          </div>
+        </div>
+        <div class="rating-container">
+          <img src="./pic/barry.jpg" alt="coustomer" width="200px" class="dp" />
+          <div class="comments">
+            <h1>Rohan</h1>
+            <img src="./pic/star.png" alt="ratings" class="rate-star" />
+            <p>
+              I would just like to say thank you for the excellent service we are recieved in yur resturant
+              last night Although the place was very busy we still had an excellent time and really appriciated thr live
+              entertainment too
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="Newslester" data-aos="fade-down">
+        <div class="news-desc">
+          <h1>Join Newsletter</h1>
+          <p>Get notified witj the lettest news andrecant offers feom the
+            <q><strong>Shelf cusline</strong></q>
+          </p>
+        </div>
+        <div class="news-input">
+          <input type="email" placeholder="Your email" class="input" />
+          <button class="news-btn">Join</button>
+        </div>
+      </section>
+    </main>
+
+    <footer data-aos="fade-up ">
+      <div class="footer-container ">
+        <img src="./pic/logo.svg" alt="alternate" class="footer-logo" />
+        <p>Fresh and delicious traditonal PAkistani food delight for family </p>
       </div>
-    </section>
-<!--  -->
-<section class="Newslester" data-aos="fade-down">
- <div class="news-desc">
-   <h1>Join  Newsletter</h1>
-   <p>Get notified witj the lettest news andrecant offers feom the
-     <q><strong>Shelf cusline</strong></q></p>
-    </div> 
-    <div class="news-input">
-      <input type="email" placeholder="Your email" class="input" />
-      <button class="news-btn">Join</button>
-  </div>
-</section>
-  </main>
-
-  <footer data-aos="fade-up ">
-    <div class="footer-container "> 
-      <img src="./pic/logo.svg" alt="alternate" class="footer-logo" />
-      <p>Fresh and delicious traditonal  PAkistani food delight for family </p>
-    </div>
       <div class="footer-items">
-        <div class="link"> 
-        <a href="" id="bolder">Links</a> 
-        <a href="">Home</a>  
-    <a href=""> Menu</a>
-    <a href="">BookTable</a> 
-    <a href="">About us</a> 
-    <a href="">Contact us</a> 
-  </div>
-  <div class="link">
-    <a href="" id="bolder">Support</a> 
-    <a href="">Contact</a>   
-    <a href="">Support center</a>  
-    <a href="">Feedback</a> 
-  </div>
-  <div class="link">
-    <a href="" id="bolder">Contact</a> 
-    <a href="">  03303040631  </a>
-    <a href=""> hamidprince823@</a>
-    </div>
-    
-  </div>
-</footer>
+        <div class="link">
+          <a href="" id="bolder">Links</a>
+          <a href="">Home</a>
+          <a href=""> Menu</a>
+          <a href="">BookTable</a>
+          <a href="">About us</a>
+          <a href="">Contact us</a>
+        </div>
+        <div class="link">
+          <a href="" id="bolder">Support</a>
+          <a href="">Contact</a>
+          <a href="">Support center</a>
+          <a href="">Feedback</a>
+        </div>
+        <div class="link">
+          <a href="" id="bolder">Contact</a>
+          <a href=""> 03303040631 </a>
+          <a href=""> hamidprince823@</a>
+        </div>
+
+      </div>
+    </footer>
 
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-  AOS.init({  duration: 800,
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800,
 
-  });
-</script>
+
+      });
+    </script>
 </body>
 
 </html>

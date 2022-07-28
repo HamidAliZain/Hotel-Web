@@ -1,51 +1,125 @@
-
-header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 20px;
+.bar-icon {
+    font-size: 30px;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: var(--green-1);
 }
 
-nav {
-    display: flex;
-    width: 50%;
-    justify-content: space-evenly;
-    padding-top: 0.5rem;
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--green-1);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
 }
 
-nav a {
+.sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
-    color: #000;
-    font-weight: bolder;
-    margin-top: 0.1rem;
-    font-size: 1.2rem;
-}
-
-nav a:hover, nav a:focus {
-    color: #068606;
-    border-radius: 10px;
-    transition: ease-in-out;
-    transition-duration: .3s;
-
-}
-
-
-header button {
-    background-color:#068606   ;
-    border: 2px double green;
-    padding: 2px 9px;
-    border-radius: 10px;
+    font-size: 25px;
     color: white;
-    font-weight: bolder;
-    margin-top: -10;
-    font-size: 0.9rem;
+    font-weight: bold;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
 }
 
-header button:hover {
-    transition: ease-in-out;
-    transition-duration: .3s;
-    background-color: white;
-    color: #068606;
-    border: 2px double #068606;
+.sidenav a:hover {
+    color: black;
 }
-    
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 56px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.nav-logo {
+    width: 150px;
+    background-color: aliceblue;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 60px;
+
+
+}
+
+
+
+.nav-logo img {
+    width: 90px;
+}
+
+
+@media screen and (min-width :1000px) {
+    .sidenav {
+        height: 10%;
+        width: 100%;
+        padding: 0;
+        display: flex;
+        position: none;
+        transition: 0s;
+        flex-direction: row;
+        justify-content: space-around;
+        background: white;
+    }
+
+    .nav-logo img {
+        width: 90px;
+    }
+
+
+
+    .bar-icon {
+        display: none;
+    }
+
+    .sidenav .closebtn {
+        display: none;
+    }
+
+    .nav-logo {
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background-color: transparent;
+        align-items: flex-start;
+        margin: 4px 0px;
+        width: 0px;
+        padding: 5px 70px;
+        height: auto;
+        width: 20%;
+    }
+
+    .nav-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+        align-items: center;
+        padding: 4px 90px;
+    }
+
+    .sidenav a {
+        color: green;
+    }
+
+}

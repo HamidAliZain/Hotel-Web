@@ -2,6 +2,7 @@ footer {
     margin:  0px 0px 000px;
     display: flex;
     flex-direction: column;
+    padding: 50px 50px;
     align-items: center;background-color: var(--lightgreen-1);
 }
 
@@ -65,6 +66,7 @@ a {
 @media screen and (min-width :768px) {
     footer {
         flex-direction: row;
+        padding: 50px 50px;
 
     }
 
